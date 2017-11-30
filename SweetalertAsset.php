@@ -12,7 +12,6 @@ class SweetalertAsset extends AssetBundle
 {
 
     public $sourcePath = '@bower/sweetalert/dist';
-    public $basePath = '@webroot/assets';
     public $js = ['sweetalert-dev.js'];
     public $css = ['sweetalert.css'];
     public $depends = ['yii\web\JqueryAsset'];
